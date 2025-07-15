@@ -18,32 +18,7 @@ const Nav = () => {
                 />
             </a>
          
-            {/* <ul className = {`flex-1 flex justify-center items-center gap-16 max-lg max-lg:hidden ${isOpen ? "flex flex-col absolute top-6 right-12 gap-2 py-2" : "hidden"} lg:flex`}>
-                {navLinks.map((item) => (
-                     <li key={item.label}>
-                        <a href= {item.href}
-                        className='font-montserrat leading-normal text-lg text-slate-gray'
-                         
-                        >
-                            {item.label}
-                        </a>
-                     </li>
-               ))}
-            </ul> */}
-{/* 
-        <ul className={`
-  flex-1 gap-16 justify-center items-center 
-  ${isOpen ? 'flex flex-col mt-4' : 'hidden'} 
-  lg:flex lg:flex-row lg:mt-0
-`}>
-  {navLinks.map((item) => (
-    <li key={item.label}>
-      <a href={item.href} className="font-montserrat leading-normal text-lg text-slate-gray">
-        {item.label}
-      </a>
-    </li>
-  ))}
-</ul> */}
+            
 
 <ul className={`
   gap-4 max-sm:gap-0 max-sm:right-1 flex-col bg-white p-2 shadow-md  rounded-md
@@ -60,9 +35,6 @@ const Nav = () => {
     </li>
   ))}
 </ul>
-
-
-
 
 
             <div className='max-lg:block hidden'>
